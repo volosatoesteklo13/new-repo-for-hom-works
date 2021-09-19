@@ -1,0 +1,27 @@
+Linux terminal (GitBash) commands
+2) Создать папку mkdir alex1
+3) Зайти в папку cd alex1
+4) Создать 3 папки mkdir alex2 alex3 alex4
+5) Зайти в любоую папку cd alex4
+6) Создать 5 файлов (3 txt, 2 json)touch 1_file.txt 2_file.txt 3_file.txt 1_file.json 2_file.json
+7) Создать 3 папки mkdir alex5 alex6 alex7
+8. Вывести список содержимого папки ls -la
+9) + Открыть любой txt файл vim 1_file.txt
+10) + написать туда что-нибудь, любой текст. нажімаю клавішу "i" пішу текст: alexnder
+11) + сохранить и выйти. esc :wq
+12) Выйти из папки на уровень выше  cd..
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. mv 1_file.json 1_file.txt alex5
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. cp 2_file.json 2_file.txt alex6
+15) Найти файл по имени  find -name 2_file.json
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. tail -f
+17) вывести несколько первыхсв строк из текстового файла cat 1_file.txt head1 
+18) вывести несколько последних строк из текстового файла  cat 1_file.txt tail1
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. less 1_file.txt
+20) вывести дату и время date
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000
+ответ  curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=100"
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+$ cd alex1 ; mkdir alex8 alex9 alex0 ; cd alex0 ; touch 1_file.txt 2_file.txt 3_file.txt 1_file.json 2_file.json ; mkdir bear5 bear6 bear7 ; ls -la ; mv 1_file.json 1_file.txt bear7
+

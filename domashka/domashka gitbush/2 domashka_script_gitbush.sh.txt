@@ -1,0 +1,1 @@
+$ cd alex1 ; mkdir alex8 alex9 alex0 ; cd alex0 ; touch 1_file.txt 2_file.txt 3_file.txt 1_file.json 2_file.json ; mkdir bear5 bear6 bear7 ; ls -la ; mv 1_file.json 1_file.txt bear7
